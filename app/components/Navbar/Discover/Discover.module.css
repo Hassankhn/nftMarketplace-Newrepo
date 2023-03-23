@@ -1,0 +1,11 @@
+.discvoer{
+    padding: .5rem 1rem;
+    transition: all .3s;
+    z-index: 222222222;
+}
+
+.discvoer:hover{
+    background-color: var(--icons-color);
+    color: var(--shadow-dark-color);
+    border-radius: .3rem;
+}
