@@ -19,7 +19,7 @@ import {Discover,Helpcenter,Notification,Profile,Sidebar} from './index'
 
 
 
-const navbar = () => {
+const Navbar = () => {
   const [discover, setDiscover] = useState(false);
   const [help, setHelp] = useState(false);
   const [profile, setProfile] = useState(false);
@@ -183,4 +183,4 @@ const navbar = () => {
   );
 };
 
-export default navbar;
+export default Navbar;
