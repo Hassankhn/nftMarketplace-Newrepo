@@ -5,6 +5,7 @@ import { FaUserAlt, FaRegImage, FaUserEdit } from "react-icons/fa";
 import { MdHelpCenter } from "react-icons/md";
 import { TbDownloadOff, TbDownload } from "react-icons/tb";
 import {GrClose} from 'react-icons/gr'
+import {RiSendPlaneFill} from 'react-icons/ri'
 import {
   TiSocialFacebook,
   TiSocialLinkedin,
@@ -31,5 +32,6 @@ export {
   TiSocialInstagram,
   TiArrrownSortedDown,
   TiArrrownSortedUp,
-  GrClose
+  GrClose,
+  RiSendPlaneFill
 };
