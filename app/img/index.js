@@ -20,8 +20,13 @@ import user3 from './use3.png'
 import user4 from './user4.png'
 import community from './community.png'
 import community1 from './comunity2.png'
-
-
+import catogry1 from './creater1.jpg'
+import catogry2 from './creater2.jpg'
+import catogry3 from './creater4.jpg'
+import musicbg from './musiccreater.jpg'
+import videobg from './videocreator.jpg'
+import Art from './artcategory.jpg'
+import category4 from './category4.jpg'
 export default {
   logo,
   Explore,
@@ -45,5 +50,12 @@ export default {
   user4,
   community,
   community1,
+  catogry1,
+  catogry2,
+  catogry3,
+  musicbg,
+  videobg,
+  Art,
+  category4
 }; //here using default bcz i will import a name i.e
 //images and then use this name to

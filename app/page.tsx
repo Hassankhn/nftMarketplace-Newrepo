@@ -1,22 +1,37 @@
-'use client'
-import Image from 'next/image'
-import { Inter } from 'next/font/google'
-import styles from './page.module.css'
-import images from './img/index'
-import {Hero,Navbar,Footer, Services, NFTSlider, Subscribe} from "./components/indexcomponent"
+"use client";
+import styles from "./page.module.css";
+import {
+  Hero,
+  Navbar,
+  Footer,
+  Services,
+  NFTSlider,
+  Subscribe,
+  Category,
+  Title,
+  Filter,
+} from "./components/indexcomponent";
 // had create a style file in a style folder and was imported try using tailwind
-
-
 
 export default function Home() {
   return (
     <div>
       <Navbar />
       <Hero />
-      <Services /> 
+      <Services />
       <NFTSlider />
+      <Title
+        heading="Trending NFTs"
+        paragraph="Discover the crueent trending NFTs in all categories"
+      />
+      <Filter />
       <Subscribe />
-      <Footer />    
+      <Title
+        heading="Explore by Category"
+        paragraph="Explore the NFTs by relevent categories"
+      />
+      <Category />
+      <Footer />
     </div>
-  )
+  );
 }

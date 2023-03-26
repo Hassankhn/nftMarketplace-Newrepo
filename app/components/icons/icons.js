@@ -4,10 +4,21 @@ import {
   MdVerified,
   MdTimer,
 } from "react-icons/md";
-import { AiFillFire, AiFillHeart, AiOutlineHeart } from "react-icons/ai";
-import { BsSearch } from "react-icons/bs";
+import { AiFillFire, AiFillHeart, AiOutlineHeart,AiFillCloseCircle } from "react-icons/ai";
+import { BsSearch, BsCircleFill } from "react-icons/bs";
 import { CgMenuLeft, CgMenuRight } from "react-icons/cg";
-import { FaUserAlt, FaRegImage, FaUserEdit } from "react-icons/fa";
+import {
+  FaUserAlt,
+  FaRegImage,
+  FaUserEdit,
+  FaFilter,
+  FaAngleDown,
+  FaAngleUp,
+  FaWallet,
+  FaMusic,
+  FaVideo,
+  FaImages,
+} from "react-icons/fa";
 import {
   TbDownloadOff,
   TbDownload,
@@ -23,11 +34,13 @@ import {
   TiSocialInstagram,
   TiArrrownSortedDown,
   TiArrrownSortedUp,
+  TiTick
 } from "react-icons/ti";
 
 export {
   MdNotifications,
   BsSearch,
+  BsCircleFill,
   CgMenuLeft,
   CgMenuRight,
   FaUserAlt,
@@ -49,6 +62,15 @@ export {
   AiFillFire,
   AiFillHeart,
   AiOutlineHeart,
+  AiFillCloseCircle,
   TbArrowBigLeftLines,
   TbArrowBigRightLines,
+  FaFilter,
+  FaAngleDown,
+  FaAngleUp,
+  FaWallet,
+  FaMusic,
+  FaVideo,
+  FaImages,
+  TiTick
 };
