@@ -8,5 +8,6 @@ import Subscribe from './Subscribe/Subscribe'
 import Title from './Headings/Title'
 import Category from './Category/Category'
 import Filter from './Filter/Filter'
+import Cards from './NFTcards/Nftcards'
 
-export {Button,Footer,Navbar,Hero,Filter,Services,NFTSlider,Subscribe,Title,Category,}
+export {Button,Footer,Navbar,Hero,Filter,Services,NFTSlider,Subscribe,Title,Category,Cards}

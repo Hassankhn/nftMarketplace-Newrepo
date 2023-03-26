@@ -5,7 +5,7 @@ import {
   MdTimer,
 } from "react-icons/md";
 import { AiFillFire, AiFillHeart, AiOutlineHeart,AiFillCloseCircle } from "react-icons/ai";
-import { BsSearch, BsCircleFill } from "react-icons/bs";
+import { BsSearch, BsCircleFill,BsImages } from "react-icons/bs";
 import { CgMenuLeft, CgMenuRight } from "react-icons/cg";
 import {
   FaUserAlt,
@@ -72,5 +72,6 @@ export {
   FaMusic,
   FaVideo,
   FaImages,
-  TiTick
+  TiTick,
+  BsImages
 };
