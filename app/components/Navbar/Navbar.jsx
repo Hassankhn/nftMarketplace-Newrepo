@@ -1,4 +1,4 @@
-'use client'
+"use client";
 import React, { useState, useEffect } from "react";
 import Image from "next/image";
 import Link from "next/link";
@@ -11,13 +11,11 @@ import {
   CgMenuRight,
 } from "../icons/icons";
 import images from "../../img";
-import Button from '../Button/Button'
+import Button from "../Button/Button";
 
 //internal style import
 import Style from "./Navbar.module.css";
-import {Discover,Helpcenter,Notification,Profile,Sidebar} from './index'
-
-
+import { Discover, Helpcenter, Notification, Profile, Sidebar } from "./index";
 
 const Navbar = () => {
   const [discover, setDiscover] = useState(false);
@@ -27,7 +25,7 @@ const Navbar = () => {
   const [OpenSidebar, setOpenSidebar] = useState(false);
 
   const openmenu = (e) => {
-    console.log('Button Clicked',e.target.innerText)
+    console.log("Button Clicked", e.target.innerText);
     const btntext = e.target.innerText; //once someone click on text/menue we will get the text
 
     if (btntext == "Discover") {
@@ -49,7 +47,7 @@ const Navbar = () => {
   };
 
   const opennotification = () => {
-    if (typeof Notification === 'undefined') {
+    if (typeof Notification === "undefined") {
       setNotification(true);
       setHelp(false);
       setProfile(false);
@@ -81,11 +79,16 @@ const Navbar = () => {
   return (
     <div className={Style.navbar}>
       <div className={Style.navbar_container}>
-
         {/* Left Section of navbar */}
         <div className={Style.navbar_container_left}>
           <div className={Style.logo}>
-            <Image src={images.logo} alt="logo" width={100} height={100} />
+            <Image 
+            src={images.logo} 
+            // src={images.TheArtvalleylogo}
+            alt="logo" 
+            width={100}
+            height={100}
+             />
           </div>
           <div className={Style.navbar_container_left_box_input}>
             <div className={Style.navbar_container_left_box_input_box}>
@@ -97,8 +100,7 @@ const Navbar = () => {
 
         {/* //Right Section Starts */}
         <div className={Style.navbar_container_right}>
-
-            {/* Discover Menue */}
+          {/* Discover Menue */}
           <div className={Style.navbar_container_right_discover}>
             <p
               onClick={(e) => {
@@ -111,7 +113,7 @@ const Navbar = () => {
 
             {discover && (
               <div className={Style.navbar_container_right_discover_box}>
-                 <Discover />
+                <Discover />
               </div>
             )}
           </div>
@@ -143,7 +145,7 @@ const Navbar = () => {
 
           {/* Cretate button */}
           <div className={Style.navbar_container_right_button}>
-            <Button btnName="Create" handleClick={()=>{}}/>
+            <Button btnName="Create" handleClick={() => {}} />
           </div>
 
           {/* Profile */}

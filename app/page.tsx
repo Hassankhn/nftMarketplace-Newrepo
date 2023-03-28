@@ -11,6 +11,7 @@ import {
   Title,
   Filter,
   Cards,
+  Collection,
 } from "./components/indexcomponent";
 // had create a style file in a style folder and was imported try using tailwind
 
@@ -21,6 +22,11 @@ export default function Home() {
       <Hero />
       <Services />
       <NFTSlider />
+      <Title
+        heading="Explore NFTs By Collection"
+        paragraph="Discover the crueent trending NFTs in all categories"
+      />
+      <Collection />
       <Title
         heading="Trending NFTs"
         paragraph="Discover the crueent trending NFTs in all categories"

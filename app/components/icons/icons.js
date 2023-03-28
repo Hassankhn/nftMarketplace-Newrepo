@@ -4,8 +4,20 @@ import {
   MdVerified,
   MdTimer,
 } from "react-icons/md";
-import { AiFillFire, AiFillHeart, AiOutlineHeart,AiFillCloseCircle } from "react-icons/ai";
-import { BsSearch, BsCircleFill,BsImages } from "react-icons/bs";
+import {
+  AiFillFire,
+  AiFillHeart,
+  AiOutlineHeart,
+  AiFillCloseCircle,
+} from "react-icons/ai";
+import {
+  BsSearch,
+  BsCircleFill,
+  BsImages,
+  BsFillAlarmFill,
+  BsFillCalendarDateFill,
+  BsCalendar3,
+} from "react-icons/bs";
 import { CgMenuLeft, CgMenuRight } from "react-icons/cg";
 import {
   FaUserAlt,
@@ -34,7 +46,9 @@ import {
   TiSocialInstagram,
   TiArrrownSortedDown,
   TiArrrownSortedUp,
-  TiTick
+  TiArrowLeftThick,
+  TiArrowRightThick,
+  TiTick,
 } from "react-icons/ti";
 
 export {
@@ -55,6 +69,8 @@ export {
   TiSocialInstagram,
   TiArrrownSortedDown,
   TiArrrownSortedUp,
+  TiArrowLeftThick,
+  TiArrowRightThick,
   GrClose,
   RiSendPlaneFill,
   MdVerified,
@@ -73,5 +89,8 @@ export {
   FaVideo,
   FaImages,
   TiTick,
-  BsImages
+  BsImages,
+  BsFillAlarmFill,
+  BsFillCalendarDateFill,
+  BsCalendar3,
 };

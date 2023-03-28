@@ -10,9 +10,9 @@ const Hero = () => {
     <div className={Style.hero}>
       <div className={Style.hero_box}>
         <div className={Style.hero_box_left}>
-          <h1>Discover, collect, and sell NFTs 🖼</h1>
+          <h1>Explore, collect, and sell NFTs 🖼</h1>
           <p>
-            Discover the most outstanding NTFs in all topics of life. Creative
+            The Art Valley marketplace to Discover the most outstanding NTFs in all topics of life. Creative
             your NTFs and sell them
           </p>
           <Button btnName='Explore Now'/>

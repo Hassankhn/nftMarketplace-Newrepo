@@ -9,5 +9,7 @@ import Title from './Headings/Title'
 import Category from './Category/Category'
 import Filter from './Filter/Filter'
 import Cards from './NFTcards/Nftcards'
+import Collection from './CollectionPage/Collection'
+import Slider from './Slider/Slider'
 
-export {Button,Footer,Navbar,Hero,Filter,Services,NFTSlider,Subscribe,Title,Category,Cards}
+export {Button,Footer,Navbar,Hero,Slider,Filter,Services,Collection,NFTSlider,Subscribe,Title,Category,Cards}

@@ -8,7 +8,7 @@ const Discover = () => {
   const discover =[
     {
     name: 'Collections',
-    link: 'collection'
+    link: 'Collection'
   },
   {
     name: 'Search',

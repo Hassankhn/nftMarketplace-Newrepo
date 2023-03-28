@@ -1,4 +1,4 @@
-"use client"
+"use client";
 import React, { useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
@@ -23,7 +23,17 @@ const Nftcards = () => {
   };
 
   //array for card
-  const cards = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+  const cards = [
+    images.catnft,
+    images.nft_img_3,
+    images.nft_img_1,
+    images.bignft,
+    images.nft_img_2,
+    images.catnft,
+    images.nft_img_3,
+    images.nft_img_1,
+    images.catnft,
+  ];
   return (
     <div className={Style.NFTCard}>
       {cards.map((el, i) => (
@@ -32,7 +42,7 @@ const Nftcards = () => {
           <div className={Style.NFTCard_box} key={i + 1}>
             <div className={Style.NFTCard_box_img}>
               <Image
-                src={images.nft_img_2}
+                src={el}
                 alt="NFT images"
                 width={600}
                 height={600}
