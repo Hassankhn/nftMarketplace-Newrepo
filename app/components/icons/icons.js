@@ -13,12 +13,14 @@ import {
 import {
   BsSearch,
   BsCircleFill,
+  BsImage,
   BsImages,
   BsFillAlarmFill,
   BsFillCalendarDateFill,
   BsCalendar3,
 } from "react-icons/bs";
 import { CgMenuLeft, CgMenuRight } from "react-icons/cg";
+import { DiJqueryLogo } from "react-icons/di";
 import {
   FaUserAlt,
   FaRegImage,
@@ -53,6 +55,7 @@ import {
 
 export {
   MdNotifications,
+  DiJqueryLogo,
   BsSearch,
   BsCircleFill,
   CgMenuLeft,
@@ -89,6 +92,7 @@ export {
   FaVideo,
   FaImages,
   TiTick,
+  BsImage,
   BsImages,
   BsFillAlarmFill,
   BsFillCalendarDateFill,

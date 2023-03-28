@@ -1,4 +1,8 @@
-import React, { useState, useEffect } from "react";
+'use client'
+import React, {
+   useState,
+  //  useEffect
+   } from "react";
 
 //internal imports
 import Style from "./Collection.module.css";

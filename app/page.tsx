@@ -12,6 +12,7 @@ import {
   Filter,
   Cards,
   Collection,
+  Brand,
 } from "./components/indexcomponent";
 // had create a style file in a style folder and was imported try using tailwind
 
@@ -39,6 +40,7 @@ export default function Home() {
         paragraph="Explore the NFTs by relevent categories"
       />
       <Category />
+      {/* <Brand /> */}
       <Footer />
     </div>
   );
