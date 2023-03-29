@@ -13,7 +13,13 @@ const Brand = () => {
       <div className={Style.Brand}>
         <div className={Style.Brand_box}>
           <div className={Style.Brand_box_left}>
-            <Image src={images.artvalleylogo2} alt="brand logo" width={100} height={100} />
+            <Image src={images.artvalleylogo2} 
+            alt="brand logo" 
+            // width={100} 
+            // height={100}
+            width={140}
+            height={140}
+             />
             {/* <a href="/">
               <DiJqueryLogo className={Style.Brand_box_left_logo} />
             </a> */}
