@@ -23,7 +23,15 @@ const Footer = () => {
     <div className={Style.footer}>
       <div className={Style.footer_box}>
         <div className={Style.footer_box_social}>
-          <Image src={images.logo} alt="logo" width={100} height={100} />
+          <Image 
+          // src={images.logo} 
+          src={images.artvalleylogo2}
+          alt="logo" 
+          // width={100} 
+          // height={100} 
+          width={125}
+          height={125}
+          />
           <p>
             Discover the future of digital ownership at TheArtValley.
             With blockchain technology, you can truly own one-of-a-kind digital

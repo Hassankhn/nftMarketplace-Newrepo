@@ -2,6 +2,9 @@
     display: none;
 }
 
+/* .banner_img{
+    object-fit:"cover"
+} */
 @media screen and (max-width: 35em) {
     .banner_img_mobile{
         display: block;

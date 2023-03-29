@@ -83,11 +83,13 @@ const Navbar = () => {
         <div className={Style.navbar_container_left}>
           <div className={Style.logo}>
             <Image 
-            src={images.logo} 
-            // src={images.TheArtvalleylogo}
+            // src={images.logo} 
+            src={images.artvalleylogo2}
             alt="logo" 
-            width={100}
-            height={100}
+            // width={100}
+            // height={100}
+            width={130}
+            height={130}
              />
           </div>
           <div className={Style.navbar_container_left_box_input}>

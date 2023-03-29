@@ -3,7 +3,10 @@ import {
   MdHelpCenter,
   MdVerified,
   MdTimer,
+  MdCloudUpload,
+  MdOutlineReportProblem,
 } from "react-icons/md";
+import {FiCopy} from 'react-icons/fi'
 import {
   AiFillFire,
   AiFillHeart,
@@ -18,6 +21,7 @@ import {
   BsFillAlarmFill,
   BsFillCalendarDateFill,
   BsCalendar3,
+  BsThreeDots,
 } from "react-icons/bs";
 import { CgMenuLeft, CgMenuRight } from "react-icons/cg";
 import { DiJqueryLogo } from "react-icons/di";
@@ -46,6 +50,7 @@ import {
   TiSocialLinkedin,
   TiSocialTwitter,
   TiSocialInstagram,
+  TiSocialYoutube,
   TiArrrownSortedDown,
   TiArrrownSortedUp,
   TiArrowLeftThick,
@@ -55,6 +60,7 @@ import {
 
 export {
   MdNotifications,
+  MdOutlineReportProblem,
   DiJqueryLogo,
   BsSearch,
   BsCircleFill,
@@ -70,6 +76,7 @@ export {
   TiSocialLinkedin,
   TiSocialTwitter,
   TiSocialInstagram,
+  TiSocialYoutube,
   TiArrrownSortedDown,
   TiArrrownSortedUp,
   TiArrowLeftThick,
@@ -78,6 +85,7 @@ export {
   RiSendPlaneFill,
   MdVerified,
   MdTimer,
+  MdCloudUpload,
   AiFillFire,
   AiFillHeart,
   AiOutlineHeart,
@@ -97,4 +105,6 @@ export {
   BsFillAlarmFill,
   BsFillCalendarDateFill,
   BsCalendar3,
+  BsThreeDots,
+  FiCopy,
 };
