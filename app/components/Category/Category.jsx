@@ -44,7 +44,6 @@ const Category = () => {
                 width={350}
                 height={150}
                 className={Style.category_box_img}
-                objectFit="cover"
               />
               <div className={Style.category_box_title}>
                 <span>

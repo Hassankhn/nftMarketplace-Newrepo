@@ -21,7 +21,8 @@ const Discover = () => {
   },
   {
     name: 'NFT details',
-    link: 'nft_details'
+    link: '#'
+    // 'NFTdetailsPage'
   },
   {
     name: 'Account settings',
