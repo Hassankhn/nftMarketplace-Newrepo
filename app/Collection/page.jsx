@@ -1,3 +1,4 @@
+'use client'
 import Banner from './components/Banner/Banner'
 import Collectionprofile from './components/Collectionprofile/Collectionprofile'
 import NFTCard2 from './components/NFTCardTwo/NFTCardTwo'

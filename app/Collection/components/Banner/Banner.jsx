@@ -1,3 +1,4 @@
+'use client'
 import React from 'react'
 import Image from "next/image";
 
@@ -10,7 +11,7 @@ const Banner = ({bannerImage}) => {
           <div className={Style.banner_img}>
             <Image
               src={bannerImage}
-              objectFit="cover"
+              objectFit={"cover"}
               alt="background"
               width={1600}
               height={100}
