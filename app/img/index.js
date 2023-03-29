@@ -39,8 +39,10 @@ import TheArtvalleylogo from './TheArtValleylogo.png';
 import createrbackground7 from './Artbackground.jpg';
 import earn from './eran.png';
 import artvalleylogo2 from './TheArtValleylogo2.png';
+import upload from './upload.png'
 
 export default {
+  upload,
   artvalleylogo2,
   TheArtvalleylogo,
   createrbackground7,

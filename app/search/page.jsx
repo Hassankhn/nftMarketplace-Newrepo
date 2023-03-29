@@ -1,5 +1,7 @@
 'use client'
-import React, { useEffect, useState, useContext } from 'react'
+import React 
+//, { useEffect, useState, useContext } 
+from 'react'
 
 // import Style from './page.module.css'
 import {Slider,Brand,Filter} from '../components/indexcomponent'
@@ -16,8 +18,8 @@ const search = () => {
     
     //use States
     // const { fetchNFTs, setError } = useContext(NFTMarketplaceContext);
-    const [nfts, setNfts] = useState([]);
-    const [nftsCopy, setNftsCopy] = useState([]);
+    // const [nfts, setNfts] = useState([]);
+    // const [nftsCopy, setNftsCopy] = useState([]);
 
   //functions for later
     // useEffect(() => {

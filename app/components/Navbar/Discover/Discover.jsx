@@ -24,9 +24,13 @@ const Discover = () => {
     link: '#'
     // 'NFTdetailsPage'
   },
+  // {
+  //   name: 'Account settings',
+  //   link: 'account_settngs'
+  // },
   {
-    name: 'Account settings',
-    link: 'account_settngs'
+    name: 'Upload NFT',
+    link: 'uploadNFT'
   },
   {
     name: 'Connect Wallet',
