@@ -92,6 +92,7 @@
 .NFTCard_box_img_img{
     border-radius: 1rem;
     transition: all .4s ease-in;
+    height: 300px;
 }
 
 .NFTCard_box_update_details{

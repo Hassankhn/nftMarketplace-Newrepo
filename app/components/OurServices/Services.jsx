@@ -5,6 +5,7 @@ import Image from 'next/image'
 //internal imports
 import Style from './Services.module.css'
 import images from '../../img/index'
+import { Margin } from '@mui/icons-material'
 
 const Services = () => {
   return (
@@ -17,6 +18,7 @@ const Services = () => {
                 alt='service 1'
                 width={80}
                 height={80}
+                style={{margin:"auto"}}
                 />
                 <p className={Style.servic_box_item_step}>
                     <span>Step 1</span>
@@ -31,6 +33,7 @@ const Services = () => {
                 alt='service 2'
                 width={80}
                 height={80}
+                style={{margin:"auto"}}
                 />
                 <p className={Style.servic_box_item_step}>
                     <span>Step 2</span>
@@ -44,6 +47,7 @@ const Services = () => {
                 src={images.Service3}
                 alt='service 3'
                 width={80}
+                style={{margin:"auto"}}
                 height={80}/>
                 <p className={Style.servic_box_item_step}>
                     <span>Step 3</span>
@@ -58,6 +62,7 @@ const Services = () => {
                 alt='service 4'
                 width={80}
                 height={80}
+                style={{margin:"auto"}}
                 />
                 <p className={Style.servic_box_item_step}>
                     <span>Step 4</span>

@@ -15,6 +15,7 @@ const Banner = ({bannerImage}) => {
               alt="background"
               width={1600}
               height={100}
+              className={Style.banner_img_bg}
             />
           </div>
     

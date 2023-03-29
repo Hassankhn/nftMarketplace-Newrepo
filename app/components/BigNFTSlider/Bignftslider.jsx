@@ -19,6 +19,7 @@ import { useState } from "react";
 
 const Bignftslider = () => {
   const [idNumber, setIdNumber] = useState(0);
+  const [like,setLike]=useState(0);
 
   const sliderData = [
     {
@@ -143,7 +144,7 @@ const Bignftslider = () => {
           <div className={Style.bigNFTSlider_box_left_bidding}>
             <div className={Style.bigNFTSlider_box_left_bidding_box}>
               <small>Current Bid</small>
-              <p>
+              <p style={{margin: '10px auto'}}>
                 {sliderData[idNumber].price} <span>$221,21</span>
               </p>
             </div>

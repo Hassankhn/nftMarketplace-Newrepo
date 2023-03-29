@@ -16,19 +16,19 @@ const Category = () => {
         name: "Entertainment",
       },
       {
-        images: images.catogry1,
+        images: images.catogry2,
         name: "Photograpy",
       },
       {
-        images: images.catogry1,
+        images: images.catogry3,
         name: "Musics",
       },
       {
-        images: images.catogry1,
+        images: images.category4,
         name: "Sports",
       },
       {
-        images: images.catogry1,
+        images: images.background_1,
         name: "Animals ",
       }
   ];

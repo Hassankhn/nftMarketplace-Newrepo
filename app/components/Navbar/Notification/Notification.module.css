@@ -1,7 +1,7 @@
 .notify{
     position: absolute;
     padding: 2rem 1rem;
-    box-shadow: var(--box-shadow);
+    box-shadow: var(--box-shadow-2);
     font-size: 1rem;
     width: 25rem;
     border-radius: 1rem;
@@ -36,15 +36,22 @@
     border-radius: 5rem;
 }
 .notify_box_info{
-    line-height: 0;
-    margin-top: -0.8rem;
+    /* line-height: 0; */
+    display: flex;
+    /* margin-top: -0.8rem; */
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    margin: 1px 0.5px;
+    /* margin-top: -0.8rem; */
 }
 .notify_box_info h4{
     font-weight: 600;
 }
 .notify_box_info p{
     font-size: 15px;
-    line-height: .3;
+    /* line-height: .3; */
     position: relative;
 }
 .notify_box_info_new{

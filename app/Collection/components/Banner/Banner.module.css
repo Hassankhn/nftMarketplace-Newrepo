@@ -1,6 +1,9 @@
 .banner_img_mobile{
     display: none;
 }
+.banner_img_bg{
+    height: 200px;
+}
 /* .banner_width{
     width: 100%;
 } */

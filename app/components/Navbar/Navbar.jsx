@@ -24,55 +24,40 @@ const Navbar = () => {
   const [notification, setNotification] = useState(false);
   const [OpenSidebar, setOpenSidebar] = useState(false);
 
-  const openmenu = (e) => {
-    console.log("Button Clicked", e.target.innerText);
-    const btntext = e.target.innerText; //once someone click on text/menue we will get the text
-
-    if (btntext == "Discover") {
-      setDiscover(!discover);
-      setHelp(false);
-      setNotification(false);
-      setProfile(false);
-    } else if (btntext == "Help Center") {
-      setHelp(!help);
-      setNotification(false);
-      setProfile(false);
-      setDiscover(false);
-    } else {
-      setNotification(false);
-      setHelp(false);
-      setDiscover(false);
-      setProfile(false);
-    }
-  };
-
-  const opennotification = () => {
-    if (typeof Notification === "undefined") {
-      setNotification(true);
-      setHelp(false);
-      setProfile(false);
-      setDiscover(false);
-    } else {
-      setNotification(false);
-    }
-  };
-
-  const openprofile = () => {
-    if (!Profile) {
-      setProfile(true);
-      setDiscover(false);
-      setHelp(false);
-      setNotification(false);
-    } else {
-      setProfile(false);
-    }
-  };
-
-  const opensidemenu = () => {
-    if (!OpenSidebar) {
-      setOpenSidebar(true);
-    } else {
-      setOpenSidebar(false);
+  const showContent = (val) => {
+    // console.log("Button Clicked", e.target.innerText);
+    // const btntext = e.target.innerText; //once someone click on text/menue we will get the text
+    console.log(val)
+    switch (val.toLowerCase()) {
+      case "discover":
+        setDiscover(!discover);
+        setHelp(false);
+        setNotification(false);
+        setProfile(false);
+        break;
+      case "help":
+        setHelp(!help);
+        setNotification(false);
+        setProfile(false);
+        setDiscover(false);
+        break;
+      case "notification":
+        setHelp(false);
+        setNotification(!notification);
+        setProfile(false);
+        setDiscover(false);
+        break;
+      case "profile":
+        setHelp(false);
+        setNotification(false);
+        setProfile(!profile);
+        setDiscover(false);
+        break;
+      default:
+        setHelp(false);
+        setNotification(false);
+        setProfile(false);
+        setDiscover(false);
     }
   };
 
@@ -82,15 +67,15 @@ const Navbar = () => {
         {/* Left Section of navbar */}
         <div className={Style.navbar_container_left}>
           <div className={Style.logo}>
-            <Image 
-            // src={images.logo} 
-            src={images.artvalleylogo2}
-            alt="logo" 
-            // width={100}
-            // height={100}
-            width={130}
-            height={130}
-             />
+            <Image
+              // src={images.logo}
+              src={images.artvalleylogo2}
+              alt="logo"
+              // width={100}
+              // height={100}
+              width={130}
+              height={130}
+            />
           </div>
           <div className={Style.navbar_container_left_box_input}>
             <div className={Style.navbar_container_left_box_input_box}>
@@ -106,7 +91,7 @@ const Navbar = () => {
           <div className={Style.navbar_container_right_discover}>
             <p
               onClick={(e) => {
-                openmenu(e);
+                showContent('Discover');
               }}
             >
               Discover
@@ -124,7 +109,7 @@ const Navbar = () => {
           <div className={Style.navbar_container_right_help}>
             <p
               onClick={(e) => {
-                openmenu(e);
+                showContent('help')
               }}
             >
               Help Center
@@ -138,10 +123,12 @@ const Navbar = () => {
 
           {/* Notification Menu */}
           <div className={Style.navbar_container_right_notify}>
+            <span>
             <MdNotifications
-              onClick={(e) => opennotification()}
+              onClick={(e) => showContent('notification')}
               className={Style.notify_icon}
             />
+            </span>
             {notification && <Notification />}
           </div>
 
@@ -158,7 +145,7 @@ const Navbar = () => {
                 alt="Profile"
                 width={40}
                 height={40}
-                onClick={() => openprofile()}
+                onClick={() => showContent('profile')}
                 className={Style.navbar_container_right_userimg}
               />
 

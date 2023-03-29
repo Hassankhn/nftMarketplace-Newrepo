@@ -30,7 +30,7 @@ const DayComponent = ({ el, i }) => {
             alt="profile"
             width={200}
             height={200}
-            className={Style.daysComponent_box_img_1}
+            className={Style.daysComponent_box_img_1 }
             style={{ objectFit: 'cover' }}
           />
           <Image
@@ -48,7 +48,7 @@ const DayComponent = ({ el, i }) => {
             alt="profile"
             width={200}
             height={200}
-            className={Style.daysComponent_box_img_3}
+            className={Style.daysComponent_box_img_3 }
             style={{ objectFit: 'cover' }}
           />
         </div>

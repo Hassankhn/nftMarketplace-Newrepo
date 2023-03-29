@@ -9,6 +9,8 @@
 }
 .daysComponent_box_img_img{
     border-radius: 1rem;
+    height: 250px;
+   
 }
 .daysComponent_box_profile{
     display: grid;
@@ -18,10 +20,12 @@
 
 .daysComponent_box_img_1{
     border-bottom-left-radius: 1rem;
+    height: 50%;
 }
 
 .daysComponent_box_img_2{
     border-bottom-right-radius: 1rem;
+    height: 50%;
 }
 
 .daysComponent_box_title{
@@ -148,3 +152,9 @@
 .daysComponent_box_title{
     padding: 1rem;
 } */
+
+
+
+.sub_catagory_img{
+    height: 50%;
+}
